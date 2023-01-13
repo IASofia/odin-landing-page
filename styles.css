@@ -219,3 +219,36 @@ img {
   font-size: 24px;
   font-weight: 900;
 }
+
+/* CTA SECTION */
+
+.cta {
+  background-color: #3882f6;
+  width: fit-content;
+  margin: 6rem auto;
+  padding: 3rem 8rem;
+  display: flex;
+  gap: 8rem;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.cta-title {
+  color: var(--title-color);
+}
+
+.cta-text {
+  color: var(--text-color);
+}
+
+.cta button {
+  border: none;
+  height: 100%;
+  padding: 0.4rem 2rem;
+  background-color: inherit;
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid var(--title-color);
+  border-radius: 8px;
+}
