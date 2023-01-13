@@ -252,3 +252,13 @@ img {
   border: 2px solid var(--title-color);
   border-radius: 8px;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--title-color);
+  font-size: 18px;
+}
